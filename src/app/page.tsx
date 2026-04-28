@@ -535,7 +535,7 @@ export default function Home() {
     </p>
 
     <h2 className="text-3xl md:text-5xl font-light text-neutral-900">
-      Что важно знать заранее
+      То, о чём спрашивают чаще всего
     </h2>
 
   </div>
