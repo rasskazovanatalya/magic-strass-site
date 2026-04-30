@@ -25,6 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="eV34j7o0PAlR1or9H09K-_CvXqYT39LjkLAxQ6qmBTM"
+        />
+      </head>
       <body className={`${inter.variable} ${prata.variable}`}>
         {children}
       </body>
