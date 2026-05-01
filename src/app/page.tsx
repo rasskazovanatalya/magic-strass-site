@@ -629,9 +629,10 @@ export default function Home() {
   </div>
 </section>
 
-<p className="mt-10 text-xs text-neutral-400">
-  <a href="/privacy" className="hover:underline">
-    Политика конфиденциальности
+<p className="mt-10 text-xs text-neutral-400 text-center">
+  Используя сайт, вы соглашаетесь с{" "}
+  <a href="/privacy" className="underline hover:text-neutral-600">
+    политикой конфиденциальности
   </a>
 </p>
 
