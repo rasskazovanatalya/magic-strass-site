@@ -33,10 +33,6 @@ export default function Home() {
           Без шаблонов, без потери вкуса, с ювелирной точностью.
         </p>
 
-        <p className="text-sm text-neutral-600 mb-4">
-          Я отвечаю лично и подбираю варианты под ваш запрос — без шаблонных решений
-        </p>
-
         <div className="mt-10 flex flex-col md:flex-row gap-4 md:gap-6 justify-center">
           <a
             href="https://t.me/rasskazova_natalya"
