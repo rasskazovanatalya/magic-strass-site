@@ -74,7 +74,7 @@ export default function Home() {
         </div>
 
       </section>
-    <section className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
+    <section className="max-w-6xl mx-auto py-8 md:py-12 px-6 md:px-0 animate-fadeIn">
   <div className="grid md:grid-cols-2 gap-8 md:gap-14 items-start">
 
     <div>
@@ -110,19 +110,42 @@ export default function Home() {
     </div>
 
   </div>
-</section><section className="max-w-6xl mx-auto py-10 md:py-14 px-6 md:px-0 animate-fadeIn">
-  <div className="max-w-2xl">
+  </section>
+<section className="max-w-6xl mx-auto py-12 md:py-20 px-6 md:px-0 animate-fadeIn">
 
-    <p className="uppercase tracking-[0.3em] text-xs text-neutral-500 mb-4">
-      Профессиональный подход
-    </p>
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 items-center">
 
-    <p className="text-lg md:text-2xl text-neutral-900 leading-relaxed font-light">
-      Сертифицированный специалист по художественной инкрустации стразами.
-      Каждая работа создаётся вручную с учётом материала, формы изделия и общего впечатления.
-    </p>
+    <div className="max-w-xl">
 
-  </div>  
+      <p className="uppercase tracking-[0.3em] text-xs text-neutral-500 mb-5">
+        Профессиональный подход
+      </p>
+
+      <h2 className="font-[Prata] text-3xl md:text-5xl text-neutral-900 leading-[1.2]">
+        Сертифицированный специалист по художественной инкрустации стразами.
+      </h2>
+
+      <p className="mt-8 text-base md:text-lg text-neutral-600 leading-relaxed">
+        Каждая работа создаётся вручную — с вниманием к материалу,
+        форме изделия, деталям и общему ощущению вещи.
+      </p>
+
+    </div>
+
+    <div className="relative">
+      <Image
+        src="/master.jpg"
+        alt="Процесс инкрустации"
+        width={700}
+        height={900}
+        className="rounded-[32px] object-cover shadow-[0_20px_60px_rgba(0,0,0,0.08)]"
+      />
+
+      <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-[#efe7df] rounded-full blur-3xl opacity-60 -z-10"></div>
+    </div>
+
+  </div>
+
 </section><section className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
   <div className="text-center mb-8 md:mb-12">
 
@@ -354,7 +377,7 @@ export default function Home() {
     </div>
 
   </div>
-</section><section className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
+</section><section className="max-w-6xl mx-auto py-8 md:py-12 px-6 md:px-0 animate-fadeIn">
   <div className="text-center mb-8 md:mb-12">
 
     <p className="uppercase tracking-[0.3em] text-xs text-neutral-500 mb-4">
