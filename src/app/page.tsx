@@ -43,7 +43,7 @@ export default function Home() {
           <a
             href="https://t.me/studiya_ms_podbor_podarka_bot"
             target="_blank"
-            className="px-8 py-4 border border-neutral-500 bg-white rounded-full text-sm tracking-[0.08em] hover:border-neutral-800 hover:shadow-sm transition-all duration-300"
+            className="px-8 py-4 border border-neutral-500 bg-white rounded-full text-sm tracking-[0.08em] text-neutral-900 visited:text-neutral-900 active:text-neutral-900 focus:text-neutral-900 hover:border-neutral-800 hover:shadow-sm transition-all duration-300"
           >
             Пройти подбор в Telegram
           </a>
@@ -351,7 +351,7 @@ export default function Home() {
             <a
               href="https://t.me/studiya_ms_podbor_podarka_bot"
               target="_blank"
-              className="px-8 py-4 border border-neutral-500 bg-white rounded-full text-sm tracking-[0.08em] hover:border-neutral-800 hover:shadow-sm transition-all duration-300"
+              className="px-8 py-4 border border-neutral-500 bg-white rounded-full text-sm tracking-[0.08em] text-neutral-900 visited:text-neutral-900 active:text-neutral-900 focus:text-neutral-900 hover:border-neutral-800 hover:shadow-sm transition-all duration-300"
             >
               Пройти подбор
             </a>
