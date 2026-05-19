@@ -118,7 +118,7 @@ export default function Home() {
               Сертифицированный специалист по художественной инкрустации стразами.
             </h2>
 
-            <p className="mt-8 text-base md:text-lg text-neutral-600 leading-relaxed">
+            <p className="mt-8 text-lg text-neutral-600 leading-relaxed">
               Каждая работа создаётся вручную — с вниманием к материалу,
               форме изделия, деталям и общему ощущению вещи.
             </p>
