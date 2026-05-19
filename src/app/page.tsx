@@ -22,9 +22,9 @@ export default function Home() {
         </p>
 
         <h1 className="font-[Prata] text-3xl md:text-5xl leading-tight text-neutral-900 max-w-4xl mx-auto">
-          Индивидуальная инкрустация,
+          Изделия, которые выглядят
           <br />
-          которая выглядит как личная эстетика
+          по-настоящему особенными
         </h1>
 
         <p className="mt-8 text-lg md:text-xl text-neutral-500 max-w-2xl mx-auto leading-relaxed">
