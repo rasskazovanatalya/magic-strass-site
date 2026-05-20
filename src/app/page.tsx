@@ -2,8 +2,40 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-full min-h-screen bg-[#f1efec] px-6 md:px-16 py-20">
-      <section className="relative max-w-6xl mx-auto text-center animate-fadeIn">
+    <main className="w-full min-h-screen bg-[#f1efec] px-6 md:px-16 pt-24 md:pt-28 pb-20">
+      <nav className="fixed top-4 left-1/2 z-50 -translate-x-1/2 w-[calc(100%-32px)] max-w-6xl rounded-full border border-white/40 bg-white/55 backdrop-blur-md shadow-[0_8px_30px_rgba(0,0,0,0.05)]">
+        <div className="flex items-center justify-between gap-4 px-5 py-3 text-xs md:text-sm tracking-[0.08em] text-neutral-700">
+          <a href="#top" className="hidden md:block font-[Prata] text-neutral-900">
+            Магия Страз
+          </a>
+
+          <div className="flex flex-1 md:flex-none items-center gap-5 overflow-x-auto whitespace-nowrap scrollbar-hide">
+            <a href="#works" className="hover:text-neutral-950 transition-colors">
+              Работы
+            </a>
+            <a href="#process" className="hover:text-neutral-950 transition-colors">
+              Процесс
+            </a>
+            <a href="#bot" className="hover:text-neutral-950 transition-colors">
+              Подбор
+            </a>
+            <a href="#reviews" className="hover:text-neutral-950 transition-colors">
+              Отзывы
+            </a>
+            <a href="#contacts" className="hover:text-neutral-950 transition-colors">
+              Контакты
+            </a>
+          </div>
+
+          <a
+            href="https://t.me/rasskazova_natalya"
+            className="hidden md:inline-flex rounded-full bg-[#a89280] px-5 py-2 text-white tracking-[0.08em] border border-[#6f6156] hover:border-neutral-800 transition-all duration-300"
+          >
+            Заказ
+          </a>
+        </div>
+      </nav>
+      <section id="top" className="relative max-w-6xl mx-auto text-center animate-fadeIn">
         <Image
           src="/logo.jpg"
           alt="Магия Страз"
@@ -138,7 +170,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
+      <section id="process" className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
         <div className="text-center mb-8 md:mb-12">
           <p className="uppercase tracking-[0.3em] text-xs text-neutral-500 mb-4">
             Процесс заказа
@@ -216,7 +248,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
+      <section id="works" className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
         <div className="text-center mb-8 md:mb-14">
           <p className="uppercase tracking-[0.3em] text-xs text-neutral-500 mb-4">
             Избранные работы
@@ -292,7 +324,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
+      <section id="bot" className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
         <div className="bg-white rounded-3xl px-8 py-10 md:px-14 md:py-12 shadow-sm text-center">
           <p className="uppercase tracking-[0.3em] text-xs text-neutral-500 mb-4">
             Telegram-бот
@@ -480,7 +512,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
+      <section id="reviews" className="max-w-6xl mx-auto py-10 md:py-16 px-6 md:px-0 animate-fadeIn">
         <div className="text-center mb-8 md:mb-12">
           <p className="uppercase tracking-[0.3em] text-xs text-neutral-500 mb-4">
             Отзывы
@@ -566,7 +598,7 @@ export default function Home() {
         </div>
       </section>  
 
-      <section className="max-w-6xl mx-auto py-12 md:py-16 px-6 md:px-0 border-t border-neutral-200">
+      <section id="contacts" className="max-w-6xl mx-auto py-12 md:py-16 px-6 md:px-0 border-t border-neutral-200">
         <div className="text-center">
           <p className="uppercase tracking-[0.3em] text-xs text-neutral-500 mb-4">
             Контакты
